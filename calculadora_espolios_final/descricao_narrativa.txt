@@ -1,0 +1,9 @@
+Um guerreiro, um arqueiro, um mago e um curandeiro formam um grupo de aventureiros.
+Em suas missões, enfrentam diferentes desafios, gastam recursos de acordo com suas habilidades e obtem recompensas.
+Cada aventureiro é responsável pelos recursos que irá levar em cada missão.
+Os aventureiros usam como recursos: Poções de vida, Poções de Mana e Comida.
+A quantidade de recursos e os preços dos recursos mudam a cada jornada.
+O preço dos recursos e dos espólios é avaliado em moedas de ouro.
+Esse grupo reconhece que todos os membros tem seu valor nos mais variados desafios que enfrentam, portanto dividem os lucros das suas jornadas igualmente.
+Ao final de cada aventura, cada integrante do grupo é responsável por vender seus espólios e entregar a parte do lucro para cada membro considerando os recursos gastos e as recompensas obtidas de forma que o lucro seja igualmente dividido.
+O programa solicita ao usuário que informe a quantidade de recursos gastos por cada membro, o valor de cada recurso e o valor das recompensas obtidas e retorna um relatório que informa qual o lucro da empreitada, o valor que cada aventureiro deve receber ao final da jornada e quanto cada um gastou.

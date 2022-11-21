@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Dados da Missão</h1>
+    </header>
+    <section>
+    <div id="dados">
+    
+        <div>
+            <h2>Loja</h2> <!--Tabela de Preços dos Recursos-->
+            <form id="formPreco">
+            <table>
+                <tr>
+                    <th>Recurso</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>Poção de Vida</td> <!--Preço do recurso Poção de Vida-->
+                    <td><input value="10" type="number" id="precoPocaoVida" name="Poção de Vida"></td> 
+                </tr>
+                <tr>
+                    <td>Poção de Mana</td> <!--Preço do recurso Poção de Mana-->
+                    <td><input value="15" type="number" id="precoPocaoMana" name="Poção de Mana"></td> 
+                </tr>
+                <tr>
+                    <td>Comida</td> <!--Preço do recurso Comida-->
+                    <td><input value="3" type="number" id="precoComida" name="Comida"></td> 
+                </tr>
+            </table>
+            </form>
+        </div>
+        
+    
+        <div>
+        <h2>Recursos</h2>
+        <form id="formRecursos">
+            <table>
+                <tr> <!-- Cabeçalho Tabela dos atributos personagens -->
+                    <th>Recurso/Classe</th>
+                    <th>Guerreiro</th>
+                    <th>Arqueiro</th>
+                    <th>Mago</th>
+                    <th>Curandeiro</th> 
+                </tr>
+                <tr>
+                    <td>Poção de Vida</td> <!--Quantidade Vida por personagem-->
+                    <td><input value="10" type="number" id="v0"></td>
+                    <td><input value="8" type="number" id="v1"></td>
+                    <td><input value="5" type="number" id="v2"></td>
+                    <td><input value="6" type="number" id="v3"></td>
+                </tr>
+                <tr>
+                    <td>Poção de Mana</td> <!--Tabela Quantidade Mana por personagem-->
+                    <td><input value="3" type="number" id="m0"></td>
+                    <td><input value="6" type="number" id="m1"></td>
+                    <td><input value="10" type="number" id="m2"></td>
+                    <td><input value="12" type="number" id="m3"></td>
+                </tr>
+                <tr>
+                    <td>Comida</td> <!--Tabela Quantidade Comida por personagem-->
+                    <td><input value="6" type="number" id="c0"></td>
+                    <td><input value="5" type="number" id="c1"></td>
+                    <td><input value="5" type="number" id="c2"></td>
+                    <td><input value="6" type="number" id="c3"></td>
+                </tr>
+    
+            </table>
+        </form>
+        </div>
+        <br>
+        <div>
+            <form id="formEspolios">
+                <table>
+                    <tr>
+                        <th>Espólios</th>
+                    </tr>
+                    <tr>
+                        <td>Moedas de Ouro</td>
+                        <td><input type="number" id="o0" value="1000" name="Guerreiro"></td>
+                        <td><input type="number" id="o1" value="800" name="Arqueiro"></td>
+                        <td><input type="number" id="o2" value="600" name="Mago"></td>
+                        <td><input type="number" id="o3" value="400" name="Curandeiro"></td>
+                    </tr>
+                    
+                </table>
+            </form>
+        </div>
+        <br>
+        <div class="botao">
+            <input type="button" value="Gerar Relatório da Missão" onclick=gerarRelatorio() class="botao">
+        </div>
+    </div>
+        <div> <!--Espaço destinado para Imprimir o relatório-->
+            <p id="resultado"></p>
+            <p id="botao"></p>
+        </div>
+    
+    </section>
+    <footer>
+        <p>&copy;FAP</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
